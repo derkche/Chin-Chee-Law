@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: antiquewhite
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.nav-wrapper {
+    background-color: #efad67;
+}
+
+.aboutUs-panel {
+    margin-top: 25px;
+}
+
+.KenChin-panel {
+    width: 95%;
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.SarinChee-panel {
+    width: 95%;
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.footer {
+    background-color: #efad67;
+}
