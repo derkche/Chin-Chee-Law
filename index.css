@@ -21,7 +21,7 @@ main {
     margin-top: 25px;
 }
 
-.KenChin-panel {
+/* .KenChin-panel {
     width: 95%;
     margin: auto;
     padding-top: 1px;
@@ -37,6 +37,16 @@ main {
     padding-bottom: 8px;
     padding-left: 8px;
     padding-right: 8px;
+} */
+
+.KenChin-panel {
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+
+.SarinChee-panel {
+    padding-top: 6px;
+    padding-bottom: 8px;
 }
 
 #services {
@@ -46,4 +56,18 @@ main {
 
 .footer {
     background-color: #efad67;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: red;
+    }
 }
